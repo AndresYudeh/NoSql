@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "61d60b82c4d8cb2a2fa66c84"
+  },
+  "id_ninero": 1,
+  "nombre_ni": "Paula Andrea",
+  "apellido_ni": "Cardenas Cedeño",
+  "cedula_ni": "1315987456",
+  "ideologia_ni": "heterosexual",
+  "nacimiento": "1984-09-11",
+  "correo_ni": "paucar@hotmail.com",
+  "cell_ni": "0987456214",
+  "valor_por_hora": 5
+},{
+  "_id": {
+    "$oid": "61d60b82c4d8cb2a2fa66c85"
+  },
+  "id_ninero": 2,
+  "nombre_ni": "Carlos Abel",
+  "apellido_ni": "Zambrano Macias",
+  "cedula_ni": "1316987536",
+  "ideologia_ni": "homosexual",
+  "nacimiento": "1999-05-02",
+  "correo_ni": "carzam@hotmail.com",
+  "cell_ni": "0926987456",
+  "valor_por_hora": 4
+},{
+  "_id": {
+    "$oid": "61d60b82c4d8cb2a2fa66c86"
+  },
+  "id_ninero": 3,
+  "nombre_ni": "Axel David",
+  "apellido_ni": "Delgado Toala",
+  "cedula_ni": "1305987414",
+  "ideologia_ni": "heterosexual",
+  "nacimiento": "1982-01-23",
+  "correo_ni": "axeldel@hotmail.com",
+  "cell_ni": "0962456320",
+  "valor_por_hora": 5
+}]

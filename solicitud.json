@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "61d62c3ac4d8cb2a2fa66ca5"
+  },
+  "id_solicitud": "SL01",
+  "fecha_ingreso": "2021-02-15 14:00:00",
+  "fecha_salida": "2021-02-15 16:00:00",
+  "estado_de_solicitud": "1",
+  "observaciones": "NA",
+  "id_cliente": "2",
+  "cedula": "1309632147",
+  "id_ninero": "3",
+  "cedula_ni": "1305987414",
+  "calificacion": "5"
+},{
+  "_id": {
+    "$oid": "61d62c3ac4d8cb2a2fa66ca6"
+  },
+  "id_solicitud": "SL02",
+  "fecha_ingreso": "2021-02-17 18:00:00",
+  "fecha_salida": "2021-02-17 22:00:00",
+  "estado_de_solicitud": "1",
+  "observaciones": "NA",
+  "id_cliente": "1",
+  "cedula": "1316547120",
+  "id_ninero": "2",
+  "cedula_ni": "1316987536",
+  "calificacion": "5"
+},{
+  "_id": {
+    "$oid": "61d62c3ac4d8cb2a2fa66ca7"
+  },
+  "id_solicitud": "SL03",
+  "fecha_ingreso": "2021-02-25 08:00:00",
+  "fecha_salida": "2021-02-25 12:00:00",
+  "estado_de_solicitud": "1",
+  "observaciones": "NA",
+  "id_cliente": "3",
+  "cedula": "1309512583",
+  "id_ninero": "1",
+  "cedula_ni": "1315987456",
+  "calificacion": "5"
+}]

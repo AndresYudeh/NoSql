@@ -1,0 +1,21 @@
+exports = async function(changeEvent) {
+  
+  const solicitudes= context.services.get("Cluster0").db("prueba").collection("solicitud");
+  try{
+    //const ninero = changeEvent.documentKey.id_ninero;
+  var sol = await solicitudes.count({ninero:changeEvent.fullDocument.ninero, calificacion:1});
+  console.log(sol);
+ 
+  if(sol>=4){
+    const id = changeEvent.documentKey._id;
+    solicitudes.deleteOne({_id: id});
+    throw Error;
+
+  }
+  } catch (err) {
+    
+    console.error("ERROR niñero tiene 3 calificaciones negativas");
+  }
+  return;
+
+};
